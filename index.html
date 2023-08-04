@@ -166,37 +166,16 @@
       <div class="column is-full-width">
         <h2 class="title is-3">Results</h2>
 
-        <!-- Interpolating. -->
+        <!-- Results on DiLiGenT-MV. -->
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+            MVPSNet achieves comparable results to STOA method while being fast and generalizable.
           </p>
         </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
+        <img src="./static/images/fig3_experiment.png"
                  class="interpolation-image"
                  alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100" value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
         <br/>
         <!--/ Interpolating. -->
 
@@ -228,48 +207,6 @@
   </div>
 </section>
 
-<!-- <section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- DeLiGenT-MV results. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">DeLiGenT-MV results</h2>
-          <p>
-            MVPSNet achieves comparable results to STOA method while being fast and generalizable.
-          </p>
-           <img src="./static/images/fig3_experiment.png"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-        </div>
-      </div>
-      <!--/ DeLiGenT-MV results. -->
-
-      <!-- Real-world capture. -->
-      <div class="column">
-        <h2 class="title is-3">Result on real-world capture</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              Result of a real-world capture using a simple at-home setup: 
-              a user captures MVPS imagery by attaching a flash-light with 
-              a string to the tripod to move lights in a circle around the camera. 
-            </p>
-            <video id="demo2" autoplay controls playsinline height="100%">
-              <source src="./static/videos/twitter_iccv23_demo2.mp4"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Real-world capture. -->
-  </div>
-</section>
- -->
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
