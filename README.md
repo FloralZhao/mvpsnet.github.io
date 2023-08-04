@@ -1,14 +1,14 @@
 # MVPSNet
 
-This is the repository that contains source code for the [MVPSNet website](https://floralzhao.github.io/mvpsnet.github.io/).
+This is the repository that contains source code for the [MVPSNet website](https://floralzhao.github.io/mvpsnet.github.io/) and the template credits to [Nerfies](https://nerfies.github.io/).
 
 If you find MVPSNet useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@article{zhao2023mvpsnet,
+  title={MVPSNet: Fast Generalizable Multi-view Photometric Stereo},
+  author={Zhao, Dongxu and Lichy, Daniel and Perrin, Pierre-Nicolas and Frahm, Jan-Michael and Sengupta, Soumyadip},
+  journal={arXiv preprint arXiv:2305.11167},
+  year={2023}
 }
 ```
 
